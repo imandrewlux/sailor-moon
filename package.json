@@ -1,0 +1,17 @@
+{
+  "name": "theproj-v1",
+  "homepage": "https://andrewlux.com/sailormoon",
+  "version": "1.0.0",
+  "description": "Grey Area Porject",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@tensorflow-models/posenet": "^1.0.3",
+    "express": "^4.16.4",
+    "request": "^2.88.0"
+  }
+}
