@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tensorflow-models/posenet": "^1.0.3",
-    "express": "^4.16.4",
+    "@tensorflow-models/posenet": "^2.2.2",
+    "express": "^4.18.1",
     "request": "^2.88.0"
   }
 }

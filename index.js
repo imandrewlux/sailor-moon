@@ -4,7 +4,10 @@ const app     = express();
 const PORT    = 3000;
 const server  = require('http').createServer(app);
 var pokermon;
-app.use(express.urlencoded())
+app.use(express.json());
+app.use(express.urlencoded({
+  extended: true
+}));
 //const io      = require('socket.io')(server);
 
 
