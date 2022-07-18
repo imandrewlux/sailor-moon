@@ -19,6 +19,4 @@ app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(PORT, function() {
-  console.log('listening on PORT: ' + PORT);
-});
+app.listen(process.env.PORT || 5000);
